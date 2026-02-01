@@ -50,8 +50,10 @@ public class Main {
         System.out.println("Heap check");
         demonstrateMaxHeap();
 
-        // check stability
-        System.out.println("Is it stable?");
+
+       // is it stable?
+        // heap sort is unstable because it performs long distance swaps so it's not
+        // (because of the heapify procces)
 
     }
 
@@ -123,7 +125,6 @@ public class Main {
         }
         System.out.println();
     }
-    // heap sort is unstable because it performs long distance swaps so it's not
-    // (because of the heapify procces)
+
 
 }
