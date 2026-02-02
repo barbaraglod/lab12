@@ -4,8 +4,7 @@ import java.util.List;
 /**
  * Max Heap for integers
  * parent is always bigger than children
- * 
- * @author me:)
+ *
  */
 public class MaxHeap {
     private List<Integer> heap;

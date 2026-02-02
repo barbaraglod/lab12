@@ -1,8 +1,7 @@
 /**
  * Heap Sort
  * sorts array using max heap
- * 
- * @author me:)
+ *
  */
 public class HeapSort {
     
